@@ -1,0 +1,9 @@
+version: "2.3"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rg-dashboard
+    ports:
+      - 3001:3001
